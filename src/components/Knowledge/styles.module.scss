@@ -1,10 +1,20 @@
 @import "../../theme/variables";
 @import "../../theme/mixins";
 
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.searchLabel {
+    display: none;
+}
+
 .showUnknownOnlyLabel {
     text-align: left;
     display: inline-block;
-    margin-bottom: 10px;
     width: 280px;
 }
 
